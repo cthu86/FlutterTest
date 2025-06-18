@@ -1,0 +1,15 @@
+import 'package:flutter/material.dart';
+import 'package:myapp/about.txt';
+import 'package:myapp/home.txt';
+
+void main() {
+  runApp(
+    MaterialApp(
+      debugShowCheckedModeBanner: false,
+      routes: {"/": (context) => Home(), "/about": (context) => About()},
+    ),
+  );
+}
+
+
+
